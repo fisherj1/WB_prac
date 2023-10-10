@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "py1"
+version = "0.1.0"
+description = ""
+authors = ["fisherj1 <71455544+fisherj1@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.*"
+numpy = "^1.26.0"
+pandas = "^2.1.1"
+jupyterlab = "^4.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
